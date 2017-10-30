@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="JANP-C THE REAL BOSS">
+    <title>Plantilla - Template</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <script src="js/ajax.js" type="text/javascript"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="page" styele="text-align: center;">
+      <!-- Cabezera de la página -->
+      <header>
+        <br>
+      	<p style="text-align: center;"><b>Esta es la Cabezera de la p&aacutegina.</b></p><br>
+      </header>
+      <!-- Barra de navegación -->
+      <nav>
+        <div id="cssmenu">
+          <ul>
+             <li class="active"><a href="index.html"><span>Home</span></a></li>
+             <li class="has-sub"><a href="#"><span>Products</span></a>
+                <ul>
+                   <li><a href="#" onClick="cargarPagina('page_1.html','contenido');"><span>Product 1</span></a></li>
+                   <li class="last"><a href="#" onClick="cargarPagina('page_2.html','contenido');"><span>Product 2</span></a></li>
+                </ul>
+             </li>
+             <li><a href="#" onClick="cargarPagina('about.html','contenido');"><span>About</span></a></li>
+             <li class="last"><a href="#" onClick="cargarPagina('contact.html','contenido');"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Anuncios -->
+      <aside>
+        <br>
+      	<p><b>Anuncios, noticias, facebook , twitter.</b></p><br>
+        <iframe width="150px" height="150px" src="//www.youtube-nocookie.com/embed/Yfbql1g35lk" frameborder="0" allowfullscreen></iframe>
+        <br>
+        <a href="https://twitter.com/JANP_C" class="twitter-follow-button" data-show-count="false" data-lang="es" data-size="large">Seguir a @JANP_C</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </aside>
+      <!-- Sección donde se mostrara el contenido -->
+      <section>
+      	<br><b>Bienvenido</b><br><br>
+        <article id="contenido">
+          <p><b>Aqu&iacute se cargara el contenido a llamar por AJAX, y para que funcione necesita de un LocalHost.</b></p>
+          <br>
+          <p><b>Esto es una plantilla b&aacutesica realizada por JANP-C y podra descargarla en <a href="//janp-c.zz.mu/">Click Here.</a></b></p>
+        </article>
+      </section>
+      <!-- Pie de página -->
+      <footer>
+      	<br>
+        <p>
+          <b>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es_ES"><img alt="Licencia de Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Plantilla Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.janp-c.zz.mu" property="cc:attributionName" rel="cc:attributionURL">Julián Andrés Pizarro Collazos</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es_ES">Creative Commons Reconocimiento-NoComercial-SinObraDerivada 3.0 Unported License</a>.<br />Creado a partir de la obra en <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.janp-c.zz.mu" rel="dct:source">http://www.janp-c.zz.mu</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.janp-c.zz.mu/web/codes/License.pdf" rel="cc:morePermissions">JANP-C THE REAL BOSS</a>.
+          </b>
+        </p>
+        <br>
+      </footer>
+    </div>
+  </body>
+</html>

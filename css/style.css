@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* Created with Vanade */
+body
+{
+	background: #333333;
+	margin: 0;
+	padding: 0;
+}
+
+aside
+{
+	background: red;  /* Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	height: 400px; /* Comentariar o quitar para borrar la altura de la etiqueta. */
+	margin-left: 10%;
+	margin-bottom: 1%;
+	text-align: center;
+	width: 18%;
+}
+
+article
+{
+	background: purple;  /* Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	height: 310px; /* Comentariar o quitar para borrar la altura de la etiqueta. */
+	margin-left: 1%;
+	width: 98%;
+} 
+
+footer
+{
+	background: yellow; /* Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	text-align: center;
+	width: 80%;
+}
+
+header
+{
+	background: #00ff00; /* Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	margin-top: 2%;
+	width: 80%;
+}
+
+nav
+{
+	/*background: #33ffff; Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	height: 40px;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	margin-top: -1%;
+	text-align: center;
+	width: 80%;
+}
+
+section
+{
+	background: gray; /* Comentariar o quitar para borrar el color de la etiqueta. */
+	border: hidden 8px #0f0e0f;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	float: left;
+	height: 400px; /* Comentariar o quitar para borrar la altura de la etiqueta. */
+	margin: 4px 0 0px 10px;
+	margin-bottom: 1%;
+	margin-left: 30%;
+	margin-top: -40.9%;
+	/*position: fixed;*/
+	text-align: center;
+	width: 60%;
+}
+
+#page
+{
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 auto;
+	padding: 0px 8px 0 16px;
+	width: 1000px;
+}
+
+
